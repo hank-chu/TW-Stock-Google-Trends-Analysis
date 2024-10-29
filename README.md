@@ -26,9 +26,8 @@ TW-Stock-Trends-Analysis/
 ├── src/
 │   ├── data_collection.py        # Google Trends 數據收集
 │   ├── data_visualization.py     # 數據視覺化
-├── data/
-│   ├── input/                    # 輸入數據（Excel 檔案）
-│   └── output/                   # 輸出結果
+├── Google_Trends_Output          # google trends的結果輸出位置
+├── trend_plots                   # 視覺化圖表輸出位置
 ├── requirements.txt              # 依賴套件
 └── README.md                     # 專案文檔
 ```
