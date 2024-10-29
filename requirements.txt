@@ -1,0 +1,4 @@
+pandas==2.2.2
+pytrends==4.9.2
+matplotlib==3.9.2
+seaborn==0.13.2
