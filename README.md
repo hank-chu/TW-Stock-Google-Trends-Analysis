@@ -2,7 +2,8 @@
 台灣上市公司 Google 搜尋趨勢分析工具
 
 ## 專案簡介
-此專案通過 Google Trends API 收集並分析台灣上市公司的搜尋數據，包含公司名稱與股票代碼等等的搜尋趨勢分析。通過視覺化呈現，協助使用者了解公司關注度的時間序列變化。
+此專案透過 Google Trends API 自動化擷取台灣上市公司的搜尋趨勢資料。目標是收集特定時間內台灣上市公司（包含公司名稱和股票代碼等等變數）的網路搜尋熱度，並將資料視覺化，為市場情緒分析、投資人關注度和股市趨勢研究提供參考。
+此專案適合對市場分析、趨勢研究或股市動向有興趣的開發者、金融分析師或數據科學家，亦可作為網路搜尋趨勢與市場波動關係的分析基礎。
 
 ## 使用情境
 金融趨勢分析：觀察台灣股市特定公司的搜尋熱度波動，分析市場情緒,投資人關注度變化。
@@ -23,13 +24,13 @@
 ```
 TW-Stock-Trends-Analysis/
 ├── src/
-│   ├── data_collection.py      # Google Trends 數據收集
+│   ├── data_collection.py        # Google Trends 數據收集
 │   ├── data_visualization.py     # 數據視覺化
 ├── data/
-│   ├── input/                # 輸入數據（Excel 檔案）
-│   └── output/              # 輸出結果
-├── requirements.txt        # 依賴套件
-└── README.md              # 專案文檔
+│   ├── input/                    # 輸入數據（Excel 檔案）
+│   └── output/                   # 輸出結果
+├── requirements.txt              # 依賴套件
+└── README.md                     # 專案文檔
 ```
 
 ## 安裝與使用
