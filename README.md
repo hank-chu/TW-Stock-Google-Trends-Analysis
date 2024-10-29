@@ -87,7 +87,7 @@ python src/data_visualization.py  # 生成視覺化圖片
 
 
 ## 注意事項
-API 限制：Google Trends API 對於每次請求有數量限制，因此程式包含了等待時間以避免被限制,如遇到 "The request failed: Google returned a response with code 429" 問題,代表太頻繁送出要求,請等待一段時間過後重新嘗試。
+API 限制：Google Trends API 對於每次請求有數量限制，因此程式包含了等待時間以避免被限制,如遇到 "The request failed: Google returned a response with code 429" 問題，代表太頻繁送出要求,請等待一段時間過後重新嘗試。
 
 
 
