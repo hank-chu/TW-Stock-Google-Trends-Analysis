@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```
 
 3. 準備資料
-- 將包含公司名稱或股票代碼的 Excel 檔案放入項目資料夾，命名為 example.xlsx（或更改程式中的檔名參數）。
+- 將包含公司名稱或股票代碼的 Excel 檔案放入TW-Stock-Trends-Analysis資料夾，命名為 example.xlsx（或更改程式中的檔名參數）。
 - Excel 檔案格式：每個欄位包含不同類型的關鍵字（如公司名稱、股票代碼）,範例檔案已提供欄位名稱與格式，可根據需求自行編輯。
 - Excel 檔案的格式範例：
 
