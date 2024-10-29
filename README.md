@@ -23,8 +23,8 @@
 ```
 TW-Stock-Trends-Analysis/
 ├── src/
-│   ├── data_collector.py      # Google Trends 數據收集
-│   ├── data_visualizer.py     # 數據視覺化
+│   ├── data_collection.py      # Google Trends 數據收集
+│   ├── data_visualization.py     # 數據視覺化
 ├── data/
 │   ├── input/                # 輸入數據（Excel 檔案）
 │   └── output/              # 輸出結果
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 4. 執行分析
 透過 data_collection.py 擷取公司搜尋趨勢數據，結果將儲存至 Google_Trends_Output 資料夾：
 ```bash
-python src/data_collector.py  # 收集google trends數據
+python src/data_collection.py  # 收集google trends數據
 ```
 
 5. 生成視覺化圖表
