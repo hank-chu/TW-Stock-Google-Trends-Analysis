@@ -25,7 +25,10 @@ cd TW-Stock-Google-Trends-Analysis
 - Excel 檔案格式：每個欄位包含不同類型的關鍵字（如公司名稱、股票代碼）
 - 將包含公司名稱和/或股票代碼的 Excel 檔案放入項目資料夾，命名為 example.xlsx（或更改程式中的檔名參數）。
 - Excel 檔案的格式範例：
-![Excel檔案範例](https://github.com/user-attachments/assets/1aac0902-dab9-450a-8791-6fe7cb6d3953)
+
+  
+![Excel檔案範例](https://github.com/user-attachments/assets/faf39d62-e2b3-4eb1-ac6a-b2e1f4b5f1af)
+
 
 
 
