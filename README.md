@@ -19,6 +19,19 @@
   - 季節性分析圖
 - 自動處理 API 限制與錯誤處理
 
+## 項目結構
+```
+TW-Stock-Trends-Analysis/
+├── src/
+│   ├── data_collector.py      # Google Trends 數據收集
+│   ├── data_visualizer.py     # 數據視覺化
+├── data/
+│   ├── input/                # 輸入數據（Excel 檔案）
+│   └── output/              # 輸出結果
+├── requirements.txt        # 依賴套件
+└── README.md              # 專案文檔
+```
+
 ## 安裝與使用
 1. 克隆專案
 ```bash
@@ -57,6 +70,21 @@ python src/data_visualization.py  # 生成視覺化圖片
 熱度熱力圖：以月為單位，顯示每家公司搜尋熱度的分布情況。
 相關性熱力圖：公司間搜尋熱度的相關係數圖，適合用於分析不同公司間的趨勢相似性。
 季節性分析圖：呈現搜尋趨勢的季節性特徵，適合觀察是否存在週期性趨勢。
+
+## 範例圖表
+- **趨勢折線圖**
+  ![公司中文全稱_trend_line](https://github.com/user-attachments/assets/87cd2c6a-60c3-4db6-b7d1-a17e42f9a782)
+
+- **熱度熱力圖**
+  ![公司中文全稱_heatmap](https://github.com/user-attachments/assets/7fdf32c7-b8e7-433e-b000-fc773561569a)
+
+- **關鍵字相關性圖**
+  ![公司中文全稱_correlation](https://github.com/user-attachments/assets/01805f3c-0526-4fc9-a397-a5a201920d23)
+
+- **季節性分析圖**
+  ![公司中文全稱_seasonal](https://github.com/user-attachments/assets/3de083a4-7674-49e4-ab57-9fa75ea29ade)
+
+
 
 ## 注意事項
 API 限制：Google Trends API 對於每次請求有數量限制，因此程式包含了等待時間以避免被限制,如遇到 "The request failed: Google returned a response with code 429" 問題,代表太頻繁送出要求,請等待一段時間過後重新嘗試。
