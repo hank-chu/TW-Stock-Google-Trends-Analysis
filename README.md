@@ -8,6 +8,9 @@
 ## 關鍵字 / Keywords
 - Google Trends API
 - pytrends
+- Taiwan Stock Market Analysis
+- Stock Market Sentiment Analysis
+- Data Visualization 
 
 ## 使用情境
 金融趨勢分析：觀察台灣股市特定公司的搜尋熱度波動，分析市場情緒,投資人關注度變化。
